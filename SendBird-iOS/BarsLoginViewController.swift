@@ -13,7 +13,7 @@ class BarsLoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = RED
+        self.view.backgroundColor = .red
     }
 
 }

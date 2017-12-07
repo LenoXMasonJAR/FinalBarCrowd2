@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09B24EC31FD7D42B0032578D /* BarCrowd in Resources */ = {isa = PBXBuildFile; fileRef = 09B24EBB1FD7D4290032578D /* BarCrowd */; };
 		09B24EC51FD7D72F0032578D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09B24EC41FD7D72E0032578D /* GoogleService-Info.plist */; };
+		09B24ED01FD7E4190032578D /* FacebookLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24ECF1FD7E4190032578D /* FacebookLoginViewController.swift */; };
+		09B24ED21FD7E45F0032578D /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24ED11FD7E45F0032578D /* BarTableViewCell.swift */; };
+		09B24ED41FD7E46F0032578D /* BarsLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24ED31FD7E46E0032578D /* BarsLoginViewController.swift */; };
+		09B24ED61FD7E4750032578D /* BarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24ED51FD7E4750032578D /* BarListViewController.swift */; };
+		09B24ED81FD7E47C0032578D /* BarLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24ED71FD7E47C0032578D /* BarLabel.swift */; };
+		09B24EDA1FD7E4830032578D /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24ED91FD7E4830032578D /* Bar.swift */; };
+		09B24EDC1FD7E48F0032578D /* BarDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24EDB1FD7E48F0032578D /* BarDescriptionVC.swift */; };
+		09B24EDE1FD7E49C0032578D /* BarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24EDD1FD7E49B0032578D /* BarButton.swift */; };
 		5ABA0B811DA6010A000C82DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA0B801DA6010A000C82DC /* AppDelegate.swift */; };
 		5ABA0B831DA6010A000C82DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA0B821DA6010A000C82DC /* ViewController.swift */; };
 		5ABA0B881DA6010A000C82DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA0B871DA6010A000C82DC /* Assets.xcassets */; };
@@ -173,10 +180,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		09B24EBB1FD7D4290032578D /* BarCrowd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BarCrowd; sourceTree = "<group>"; };
 		09B24EC41FD7D72E0032578D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09B24ECF1FD7E4190032578D /* FacebookLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginViewController.swift; sourceTree = "<group>"; };
+		09B24ED11FD7E45F0032578D /* BarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableViewCell.swift; sourceTree = "<group>"; };
+		09B24ED31FD7E46E0032578D /* BarsLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsLoginViewController.swift; sourceTree = "<group>"; };
+		09B24ED51FD7E4750032578D /* BarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarListViewController.swift; sourceTree = "<group>"; };
+		09B24ED71FD7E47C0032578D /* BarLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarLabel.swift; sourceTree = "<group>"; };
+		09B24ED91FD7E4830032578D /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		09B24EDB1FD7E48F0032578D /* BarDescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarDescriptionVC.swift; sourceTree = "<group>"; };
+		09B24EDD1FD7E49B0032578D /* BarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButton.swift; sourceTree = "<group>"; };
 		5A74B8EF1DC0D11D00EBA0F5 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/GroupChannelListViewController.xib; sourceTree = "<group>"; };
-		5ABA0B7D1DA6010A000C82DC /* SendBird-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SendBird-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABA0B7D1DA6010A000C82DC /* BarCrowd2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCrowd2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABA0B801DA6010A000C82DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ABA0B821DA6010A000C82DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5ABA0B871DA6010A000C82DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -323,7 +337,7 @@
 		5ABA0B7E1DA6010A000C82DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5ABA0B7D1DA6010A000C82DC /* SendBird-iOS.app */,
+				5ABA0B7D1DA6010A000C82DC /* BarCrowd2.app */,
 				E2217E381EF893A000AEE668 /* CommonCrypto.framework */,
 			);
 			name = Products;
@@ -332,7 +346,6 @@
 		5ABA0B7F1DA6010A000C82DC /* SendBird-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				09B24EBB1FD7D4290032578D /* BarCrowd */,
 				E212EC7E1EFC8B6800FDED1D /* SendBird-iOS.entitlements */,
 				5ABA0B921DA6020A000C82DC /* Chatting */,
 				5ABA0B941DA6021D000C82DC /* Common */,
@@ -349,6 +362,14 @@
 				5ABA0B891DA6010A000C82DC /* LaunchScreen.storyboard */,
 				5AD94BC81DB0B6F200A6CD66 /* Main.storyboard */,
 				5ABA0B821DA6010A000C82DC /* ViewController.swift */,
+				09B24ED71FD7E47C0032578D /* BarLabel.swift */,
+				09B24EDD1FD7E49B0032578D /* BarButton.swift */,
+				09B24EDB1FD7E48F0032578D /* BarDescriptionVC.swift */,
+				09B24ED91FD7E4830032578D /* Bar.swift */,
+				09B24ED31FD7E46E0032578D /* BarsLoginViewController.swift */,
+				09B24ED51FD7E4750032578D /* BarListViewController.swift */,
+				09B24ED11FD7E45F0032578D /* BarTableViewCell.swift */,
+				09B24ECF1FD7E4190032578D /* FacebookLoginViewController.swift */,
 			);
 			path = "SendBird-iOS";
 			sourceTree = "<group>";
@@ -573,9 +594,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5ABA0B7C1DA6010A000C82DC /* SendBird-iOS */ = {
+		5ABA0B7C1DA6010A000C82DC /* BarCrowd2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5ABA0B8F1DA6010A000C82DC /* Build configuration list for PBXNativeTarget "SendBird-iOS" */;
+			buildConfigurationList = 5ABA0B8F1DA6010A000C82DC /* Build configuration list for PBXNativeTarget "BarCrowd2" */;
 			buildPhases = (
 				A0885E337A6E419ABA67A9A3 /* [CP] Check Pods Manifest.lock */,
 				5ABA0B791DA6010A000C82DC /* Sources */,
@@ -590,9 +611,9 @@
 			dependencies = (
 				E2217E3E1EF893A000AEE668 /* PBXTargetDependency */,
 			);
-			name = "SendBird-iOS";
+			name = BarCrowd2;
 			productName = "SendBird-iOS";
-			productReference = 5ABA0B7D1DA6010A000C82DC /* SendBird-iOS.app */;
+			productReference = 5ABA0B7D1DA6010A000C82DC /* BarCrowd2.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E2217E371EF893A000AEE668 /* CommonCrypto */ = {
@@ -621,13 +642,16 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = SendBird;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					5ABA0B7C1DA6010A000C82DC = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 8K8M9F9X95;
+						DevelopmentTeam = RHAE4D8NFJ;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -640,7 +664,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5ABA0B781DA6010A000C82DC /* Build configuration list for PBXProject "SendBird-iOS" */;
+			buildConfigurationList = 5ABA0B781DA6010A000C82DC /* Build configuration list for PBXProject "BarCrowd2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -660,7 +684,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				5ABA0B7C1DA6010A000C82DC /* SendBird-iOS */,
+				5ABA0B7C1DA6010A000C82DC /* BarCrowd2 */,
 				E2217E371EF893A000AEE668 /* CommonCrypto */,
 			);
 		};
@@ -746,7 +770,6 @@
 				5ABA0BC51DA62094000C82DC /* OutgoingImageFileMessageTableViewCell.xib in Resources */,
 				5AC2B6E01DB6110100BA4BC7 /* CreateGroupChannelUserListViewController.xib in Resources */,
 				5AC2B6EA1DB61C1500BA4BC7 /* MemberListViewController.xib in Resources */,
-				09B24EC31FD7D42B0032578D /* BarCrowd in Resources */,
 				5ADEF81B1DAA616A000AABF9 /* GroupChannelListEditableTableViewCell.xib in Resources */,
 				5ABA0B881DA6010A000C82DC /* Assets.xcassets in Resources */,
 				E2332F881EFB186700E0738B /* UserProfileViewController.xib in Resources */,
@@ -799,25 +822,41 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SendBird-iOS/Pods-SendBird-iOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
 				"${BUILT_PRODUCTS_DIR}/NYTPhotoViewer/NYTPhotoViewer.framework",
 				"${BUILT_PRODUCTS_DIR}/RSKImageCropper/RSKImageCropper.framework",
 				"${PODS_ROOT}/SendBirdSDK/SendBirdSDK.framework",
 				"${PODS_ROOT}/SendBirdSDK/SendBirdSDK.framework.dSYM",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYTPhotoViewer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSKImageCropper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendBirdSDK.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/SendBirdSDK.framework.dSYM",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -849,15 +888,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B24ED01FD7E4190032578D /* FacebookLoginViewController.swift in Sources */,
 				E25E5A9B1E7A046D003E1E9B /* ChatImage.swift in Sources */,
 				E290199D1EE77A6F00DA8AB8 /* IncomingGeneralUrlPreviewMessageTableViewCell.swift in Sources */,
 				5ADEF82A1DAA663C000AABF9 /* CreateGroupChannelUserListTableViewCell.swift in Sources */,
+				09B24ED21FD7E45F0032578D /* BarTableViewCell.swift in Sources */,
 				5ABA0BB21DA60559000C82DC /* MessageDelegate.swift in Sources */,
 				5ABA0B831DA6010A000C82DC /* ViewController.swift in Sources */,
 				5ABA0BB01DA6050B000C82DC /* IncomingFileMessageTableViewCell.swift in Sources */,
 				5ABA0BD41DA75357000C82DC /* OutgoingUserMessageTableViewCell.swift in Sources */,
 				5AD94BA31DAF1A3A00A6CD66 /* MemberListViewController.swift in Sources */,
 				5AD94B9D1DAB42D000A6CD66 /* CreateGroupChannelUserListViewController.swift in Sources */,
+				09B24ED61FD7E4750032578D /* BarListViewController.swift in Sources */,
 				5AD94BA71DAF1C7C00A6CD66 /* MenuViewController.swift in Sources */,
 				5AD94B9F1DAB68B700A6CD66 /* GroupChannelListViewController.swift in Sources */,
 				5ABA0BC81DA6455D000C82DC /* IncomingImageFileMessageTableViewCell.swift in Sources */,
@@ -874,9 +916,12 @@
 				E29019A01EE8979C00DA8AB8 /* FLAnimatedImageView+ImageCache.swift in Sources */,
 				5AD94BC31DAF5D0900A6CD66 /* OpenChannelListViewController.swift in Sources */,
 				5ABA0BD81DA76FFD000C82DC /* ChattingView.swift in Sources */,
+				09B24EDE1FD7E49C0032578D /* BarButton.swift in Sources */,
 				5AD94B991DAB305700A6CD66 /* SelectedUserListCollectionViewCell.swift in Sources */,
 				5ABA0BD21DA74F5C000C82DC /* OutgoingImageFileMessageTableViewCell.swift in Sources */,
 				CE806EF61E79048200A8CB57 /* IncomingVideoFileMessageTableViewCell.swift in Sources */,
+				09B24EDC1FD7E48F0032578D /* BarDescriptionVC.swift in Sources */,
+				09B24EDA1FD7E4830032578D /* Bar.swift in Sources */,
 				5ABA0BCE1DA7277A000C82DC /* NeutralMessageTableViewCell.swift in Sources */,
 				E221A2E31F29192500767328 /* String+SendBird.swift in Sources */,
 				E24383801EF094860066559A /* OutgoingGeneralUrlPreviewMessageTableViewCell.swift in Sources */,
@@ -884,9 +929,11 @@
 				5AD94BE41DB4A8D800A6CD66 /* Constants.swift in Sources */,
 				5ABA0BD01DA7469F000C82DC /* OutgoingFileMessageTableViewCell.swift in Sources */,
 				5ABA0BD61DA76B50000C82DC /* ReusableViewFromXib.swift in Sources */,
+				09B24ED81FD7E47C0032578D /* BarLabel.swift in Sources */,
 				5AD94BBF1DAF560100A6CD66 /* CreateOpenChannelViewController.swift in Sources */,
 				5ABA0BCA1DA64707000C82DC /* Utils.swift in Sources */,
 				CE806EFA1E79049800A8CB57 /* OutgoingVideoFileMessageTableViewCell.swift in Sources */,
+				09B24ED41FD7E46F0032578D /* BarsLoginViewController.swift in Sources */,
 				5AD94C2C1DB5F74A00A6CD66 /* Bundle+SendBird.swift in Sources */,
 				E209E9271F7A1D7600E7713F /* CustomNavigationBar.swift in Sources */,
 				5AD94BB91DAF24AD00A6CD66 /* OpenChannelListTableViewCell.swift in Sources */,
@@ -1042,7 +1089,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1067,6 +1114,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "~/Documents/FacebookSDK ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1081,10 +1129,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "SendBird-iOS";
+				PRODUCT_NAME = BarCrowd2;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1096,7 +1144,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1121,6 +1169,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "~/Documents/FacebookSDK ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1129,9 +1178,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "SendBird-iOS";
+				PRODUCT_NAME = BarCrowd2;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1144,14 +1193,17 @@
 			baseConfigurationReference = C879E57358A8287C34B477A5 /* Pods-SendBird-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "SendBird-iOS/SendBird-iOS.entitlements";
-				DEVELOPMENT_TEAM = 8K8M9F9X95;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHAE4D8NFJ;
 				INFOPLIST_FILE = "SendBird-iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Final.BarCrowd2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1161,15 +1213,17 @@
 			baseConfigurationReference = 96683C54D2DA7CFBF0C23471 /* Pods-SendBird-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "SendBird-iOS/SendBird-iOS.entitlements";
-				DEVELOPMENT_TEAM = 8K8M9F9X95;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHAE4D8NFJ;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = "SendBird-iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Final.BarCrowd2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1226,7 +1280,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5ABA0B781DA6010A000C82DC /* Build configuration list for PBXProject "SendBird-iOS" */ = {
+		5ABA0B781DA6010A000C82DC /* Build configuration list for PBXProject "BarCrowd2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5ABA0B8D1DA6010A000C82DC /* Debug */,
@@ -1235,7 +1289,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5ABA0B8F1DA6010A000C82DC /* Build configuration list for PBXNativeTarget "SendBird-iOS" */ = {
+		5ABA0B8F1DA6010A000C82DC /* Build configuration list for PBXNativeTarget "BarCrowd2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5ABA0B901DA6010A000C82DC /* Debug */,

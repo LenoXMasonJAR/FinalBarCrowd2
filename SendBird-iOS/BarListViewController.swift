@@ -333,8 +333,7 @@ class BarListViewController: UITableViewController {
         
         let bar = items[indexPath.row]
         
-        cell.firstLabel.text = bar.name
-        cell.secondLabel.text = bar.type
+        cell.barLabel.text = bar.name
         
         
         

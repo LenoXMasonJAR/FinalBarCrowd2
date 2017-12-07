@@ -10,8 +10,7 @@ import UIKit
 
 class BarTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var secondLabel: UILabel!
-    @IBOutlet weak var firstLabel: UILabel!
+    @IBOutlet weak var barLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

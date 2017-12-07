@@ -12,7 +12,7 @@ import Firebase
 import FirebaseDatabase
 
 
-class ViewController: BarsLoginViewController, FBSDKLoginButtonDelegate {
+class FacebookLoginViewController: BarsLoginViewController, FBSDKLoginButtonDelegate {
     
 
     fileprivate var ref: DatabaseReference?
@@ -21,7 +21,7 @@ class ViewController: BarsLoginViewController, FBSDKLoginButtonDelegate {
     
     @IBOutlet weak var barCrowdLogo: UIImageView!
     @IBAction func findBars(_ sender: Any) {
-         self.performSegue(withIdentifier: "segueToMain", sender: self)
+         self.performSegue(withIdentifier: "segueToBars", sender: self)
     }
     
     override func viewDidLoad() {
