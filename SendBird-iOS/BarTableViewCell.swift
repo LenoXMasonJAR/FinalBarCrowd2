@@ -13,6 +13,7 @@ class BarTableViewCell: UITableViewCell {
     @IBOutlet weak var barLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+        self.backgroundColor = RED_COLOR
         // Initialization code
     }
 

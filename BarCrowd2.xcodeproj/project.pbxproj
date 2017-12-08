@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092D76281FD9E6000032B3D9 /* BarDescriptionColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D76271FD9E6000032B3D9 /* BarDescriptionColorController.swift */; };
 		09B24EC51FD7D72F0032578D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09B24EC41FD7D72E0032578D /* GoogleService-Info.plist */; };
 		09B24ED01FD7E4190032578D /* FacebookLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24ECF1FD7E4190032578D /* FacebookLoginViewController.swift */; };
 		09B24ED21FD7E45F0032578D /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B24ED11FD7E45F0032578D /* BarTableViewCell.swift */; };
@@ -180,6 +181,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		092D76271FD9E6000032B3D9 /* BarDescriptionColorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarDescriptionColorController.swift; sourceTree = "<group>"; };
 		09B24EC41FD7D72E0032578D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		09B24ECF1FD7E4190032578D /* FacebookLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginViewController.swift; sourceTree = "<group>"; };
 		09B24ED11FD7E45F0032578D /* BarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableViewCell.swift; sourceTree = "<group>"; };
@@ -370,6 +372,7 @@
 				09B24ED51FD7E4750032578D /* BarListViewController.swift */,
 				09B24ED11FD7E45F0032578D /* BarTableViewCell.swift */,
 				09B24ECF1FD7E4190032578D /* FacebookLoginViewController.swift */,
+				092D76271FD9E6000032B3D9 /* BarDescriptionColorController.swift */,
 			);
 			path = "SendBird-iOS";
 			sourceTree = "<group>";
@@ -916,6 +919,7 @@
 				E29019A01EE8979C00DA8AB8 /* FLAnimatedImageView+ImageCache.swift in Sources */,
 				5AD94BC31DAF5D0900A6CD66 /* OpenChannelListViewController.swift in Sources */,
 				5ABA0BD81DA76FFD000C82DC /* ChattingView.swift in Sources */,
+				092D76281FD9E6000032B3D9 /* BarDescriptionColorController.swift in Sources */,
 				09B24EDE1FD7E49C0032578D /* BarButton.swift in Sources */,
 				5AD94B991DAB305700A6CD66 /* SelectedUserListCollectionViewCell.swift in Sources */,
 				5ABA0BD21DA74F5C000C82DC /* OutgoingImageFileMessageTableViewCell.swift in Sources */,

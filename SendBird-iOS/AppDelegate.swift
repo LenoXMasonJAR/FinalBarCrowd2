@@ -13,7 +13,9 @@ import AVFoundation
 import Firebase
 import FBSDKCoreKit
 
-let PURPLE_COLOR  = UIColor.init(red: 34/255, green: 78/255, blue: 198/255, alpha: 1.0)
+let PURPLE_COLOR  = UIColor.init(red: 171/255, green: 77/255, blue: 168/255, alpha: 1.0)
+let RED_COLOR = UIColor.init(red: 211/255, green: 26/255, blue: 67/255, alpha: 1.0)
+let FONT_COLOR = UIColor.init(red: 252/255, green: 198/255, blue: 93/255, alpha: 1.0)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -38,6 +40,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIApplication.shared.registerForRemoteNotifications()
 #endif
         
+        application.statusBarStyle = UIStatusBarStyle.lightContent
+        let navAppearance = UINavigationBar.appearance()
+        navAppearance.barTintColor = .white
+        navAppearance.tintColor = FONT_COLOR
+        navAppearance.isTranslucent = false
         UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: Constants.navigationBarTitleFont()]
         UINavigationBar.appearance().tintColor = Constants.navigationBarTitleColor()
         

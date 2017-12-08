@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SendBird-iOS.xcodeproj">
+      location = "group:/Users/MasonJAR/Documents/sample-swift/BarCrowd2.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:HTMLKit/HTMLKit.xcodeproj">

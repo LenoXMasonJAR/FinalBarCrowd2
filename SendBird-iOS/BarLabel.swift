@@ -11,7 +11,7 @@ import UIKit
 class BarLabel: UILabel {
 
     override func awakeFromNib() {
-        self.textColor = UIColor.orange
+        self.textColor = FONT_COLOR
     }
 
 }

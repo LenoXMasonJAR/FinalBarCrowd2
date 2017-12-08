@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 
-class BarDescriptionVC: UIViewController{
+class BarDescriptionVC: BarsDescriptionColorController{
  
     
     @IBOutlet weak var titleLabel: UILabel!
@@ -24,9 +24,9 @@ class BarDescriptionVC: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         if let b = self.bar {
-            self.addressLabel.text = b.location
-            self.coverLabel.text = b.cover
-            self.phoneLabel.text = b.contact
+            self.addressLabel.text = "Address: " + (b.location)!
+            self.coverLabel.text = "Cover Fee: " + (b.cover)!
+            self.phoneLabel.text = "Phone: " + (b.contact)!
             self.descriptionLabel.text = b.description
             self.titleLabel.text = b.name
             

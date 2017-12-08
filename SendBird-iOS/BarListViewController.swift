@@ -9,16 +9,6 @@
 import UIKit
 import Foundation
 
-
-//var barArray = ["B.O.B.'s Brewery", "Billy's Lounge", "Eve at The B.O.B.", "Founders Brewing Co.", "Grand Woods Lounge", "Hopcat", "Mojos Dueliong Piano Bar & Restaurant", "Stellas Lounge", "Tavern on the Square", "The Back Fourty Saloon"]
-//var barNum = ["616-356-2000", "616-459-5757", "616-356-2000", "616-776-1195", "616-451-4300", "616-451-4677", "616-776-9000", "616-742-4444", "616-456-7673", "616-742-4040"]
-//var barCover = ["$10", "N/A", "$10", "N/A", "$5", "N/A", "$5", "N/A", "$10", "N/A"]
-////var barDesc = ["Fun suff to do on a saturday with limited amounts of people with live music and a band!", "Lame as Fuck", "Im so dumb", "Nick hurt imbezles chapter $$"]
-//var barAdd = ["20 Monroe Ave NW", "1437 Wealthy St SE", "20 Monroe Ave NW", "235 Grandville Ave SW", "77 Grandville Ave SW", "25 Iona Ave SW", "180 Monroe Ave NW", "53 Commerce Ave SW","100 Iona Ave SW","48 W Fulton St"]
-//var myIndex = 0
-
-
-
 class BarListViewController: UITableViewController {
     
     var userEmail : String?
@@ -56,7 +46,7 @@ class BarListViewController: UITableViewController {
                          barId: "1",
                          type: "N/A",
                          contact: "(844) 678-5483",
-                         description: "This incredible space is the perfect location to host your corporate event, private concert, wedding, reception or business meeting. With access to the world’s greatest musical entertainment, full service event production, state-of-the-art lighting and sound, custom menus and mixology - our unique venue will exceed expectations of even the most discerning guest. Accommodating 75-2,600+ guests our talented staff handles every detail, so you don’t have to. Make your next meeting or private event.",
+                         description: "This incredible space is the perfect location to host your corporate event, private concert, wedding, reception or business meeting. With access to the world’s greatest musical entertainment, full service event production, state-of-the-art lighting and sound, custom menus and mixology - our unique venue will exceed expectations of even the most discerning guest. ",
                          location: "11 Ottawa Ave. NW",
                          cover: "none",
                          weekSpecial: "Not done yet." )!)
@@ -112,7 +102,7 @@ class BarListViewController: UITableViewController {
                          barId: "8",
                          type: "N/A",
                          contact: "(616) 224-8800",
-                         description: "Take a look at the awesome fun that awaits! We've got more than 200 games in our Million Dollar Midway. Win tickets playing our games and turn them in for great prizes in the Winner's Circle. Wow, you can even take home some of the fun! And don't forget our Happy Hours! Many locations have two every day-a regular Happy Hour and a Late Night Happy Hour. Either time's a great time to watch sports on big screens and enjoy great deals on our signature cocktails, beer and wine.  ",
+                         description: "Take a look at the awesome fun that awaits! We've got more than 200 games in our Million Dollar Midway. Win tickets playing our games and turn them in for great prizes in the Winner's Circle. Wow, you can even take home some of the fun! And don't forget our Happy Hours! Many locations have two every day-a regular Happy Hour and a Late Night Happy Hour.",
                          location: "3660 28th St. SE",
                          cover: "none",
                          weekSpecial: "Not done yet." )!)
@@ -120,7 +110,7 @@ class BarListViewController: UITableViewController {
                          barId: "9",
                          type: "N/A",
                          contact: "(616) 238-5227",
-                         description: "A rustic-industrial brew pub located in the Wealthy Street Business District of GR. Using our onsite 3 barrel brewing system, we focus on brewing beers that push the standard of traditional styles. An outdoor patio provides ample seating to enjoy the beautiful Michigan patio season. Enjoy a beer next to the fireplace, play a game of bags, or just kick back and enjoy the sunshine. We have free wifi, making Elk the perfect spot to enjoy a beer while you work or study. Catch your favorite game on one of the televisions in the taproom, or grab your friends and check out the collection of board games. Elk Brewing offers a menu that includes appetizers, fresh made soups and paninis. Also featured are six-signature sauces, each made with an Elk Brewing beer. We offer vegetarian, vegan and gluten free options.",
+                         description: "A rustic-industrial brew pub located in the Wealthy Street Business District of GR. Using our onsite 3 barrel brewing system, we focus on brewing beers that push the standard of traditional styles. An outdoor patio provides ample seating to enjoy the beautiful Michigan patio season. Enjoy a beer next to the fireplace, play a game of bags, or just kick back and enjoy the sunshine.",
                          location: "700 Wealthy Street SE",
                          cover: "none",
                          weekSpecial: "Not done yet." )!)
@@ -176,7 +166,7 @@ class BarListViewController: UITableViewController {
                          barId: "16",
                          type: "N/A",
                          contact: "(616) 451-4300",
-                         description: "The Grand Woods Lounge boasts of the full compliment of compliments:  The greatest Martini List.  The smartest Craft Beer List.  The best executed Comfort Food; The coolest Facility; The most fun Porch; The most exciting and diverse Entertainment; The absolute best Hospitality Professionals in Grand Rapids.  The sum of our parts equates to the best place for the best people to socialize, dine and party. Here, every day, now and always.",
+                         description: "The Grand Woods Lounge boasts of the full compliment of compliments:  The greatest Martini List.  The smartest Craft Beer List.  The best executed Comfort Food; The coolest Facility; The most fun Porch; The most exciting and diverse Entertainment; The absolute best Hospitality Professionals in Grand Rapids.  The sum of our parts equates to the best place for the best people to socialize, dine and party..",
                          location: "77 Grandville Ave. SW",
                          cover: "$5",
                          weekSpecial: "Not done yet." )!)
@@ -224,7 +214,7 @@ class BarListViewController: UITableViewController {
                          barId: "22",
                          type: "N/A",
                          contact: "(616) 451-4677",
-                         description: "The Award-Winning Original: Opened in 2008 as a place where our founder, Mark Sellers, could enjoy a wide selection of craft beers from around the world (and some great seasonals brewed in our in-house small-batch brewery). Since then it has been named No. 3 Beer Bar on Planet Earth by Beer Advocate magazine, a Top 5 Great American Beer Bar by CraftBeer.com for three years straight and No. 1 brewpub in the country by RateBeer.com.",
+                         description: "The Award-Winning Original: Opened in 2008 as a place where our founder, Mark Sellers, could enjoy a wide selection of craft beers from around the world (and some great seasonals brewed in our in-house small-batch brewery). Since then it has been named No. 3 Beer Bar on Planet Earth by Beer Advocate magazine and a Top 5 Great American Beer Bar by CraftBeer.com.",
                          location: "25 Ionia Ave. SW",
                          cover: "none",
                          weekSpecial: "Not done yet." )!)
@@ -272,7 +262,7 @@ class BarListViewController: UITableViewController {
                          barId: "28",
                          type: "Brewpub",
                          contact: "(616) 345-5642",
-                         description: "Strategically placed at the gateway to Grand Rapids’ historic Westside, The Knickerbocker is a taste of many world traditions that have been rediscovered and presented with a fresh perspective. Enjoy a full drink menu including craft beer, artisan spirits, handcrafted cocktails, wine and cider. The Knickerbocker presents a rustic, seasonal menu showcasing local and regional agriculture, old world techniques with a fresh perspective; including nose to tail butchery, heirloom produce and scratch cooking over fire.",
+                         description: "Strategically placed at the gateway to Grand Rapids’ historic Westside, The Knickerbocker is a taste of many world traditions that have been rediscovered and presented with a fresh perspective. Enjoy a full drink menu including craft beer, artisan spirits, handcrafted cocktails, wine and cider.",
                          location: "417 Bridge St. NW",
                          cover: "none",
                          weekSpecial: "Not done yet." )!)
@@ -280,7 +270,7 @@ class BarListViewController: UITableViewController {
                          barId: "29",
                          type: "N/A",
                          contact: "(616) 458-3125",
-                         description: "With subtle hints of the prohibition-era \"speakeasy\" pubs, SpeakEZ Lounge boasts classic cocktails, tasty infusions, & plenty of fine craft beers. The casual and friendly atmosphere will bring you in. Our eclectic and fresh food will bring you back. Come in and experience one of our featured sandwiches, pastas, or signature sauces. Our entrées earn rave reviews, weather you’re looking for flaky Haddock, Pork New York or our Ribeye with Chimichurri, we're sure you'll find a dish to rave about.",
+                         description: "With subtle hints of the prohibition-era \"speakeasy\" pubs, SpeakEZ Lounge boasts classic cocktails, tasty infusions, & plenty of fine craft beers. The casual and friendly atmosphere will bring you in. Our eclectic and fresh food will bring you back. Come in and experience one of our featured sandwiches, pastas, or signature sauces.",
                          location: "600 Monroe Ave. NW",
                          cover: "none",
                          weekSpecial: "Not done yet." )!)
@@ -352,7 +342,6 @@ class BarListViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //self.performSegue(withIdentifier: "barDesc", sender: self)
     }
 
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kza-7N-DeY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JYa-lv-jcf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -29,7 +29,7 @@
                                 <rect key="frame" x="65" y="40" width="245" height="196"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuo-i9-qYU" customClass="BarButton" customModule="BarCrowd2" customModuleProvider="target">
-                                <rect key="frame" x="155" y="617" width="64" height="30"/>
+                                <rect key="frame" x="141" y="617" width="93" height="30"/>
                                 <state key="normal" title="Find Bars"/>
                                 <connections>
                                     <action selector="findBars:" destination="JYa-lv-jcf" eventType="touchUpInside" id="JP7-dK-iiK"/>
@@ -39,12 +39,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SZg-xV-qZj" firstAttribute="trailing" secondItem="kuo-i9-qYU" secondAttribute="trailing" constant="156" id="Ngm-EO-Zev"/>
-                            <constraint firstItem="kuo-i9-qYU" firstAttribute="leading" secondItem="SZg-xV-qZj" secondAttribute="leading" constant="155" id="RNp-dH-U2X"/>
-                            <constraint firstItem="kuo-i9-qYU" firstAttribute="centerX" secondItem="SZg-xV-qZj" secondAttribute="centerX" id="UOe-9L-9ee"/>
+                            <constraint firstItem="SZg-xV-qZj" firstAttribute="bottom" secondItem="kuo-i9-qYU" secondAttribute="bottom" constant="20" id="4by-oF-FQL"/>
+                            <constraint firstItem="kuo-i9-qYU" firstAttribute="top" secondItem="WH5-xf-qeD" secondAttribute="bottom" constant="381" id="M10-w5-7ef"/>
+                            <constraint firstItem="kuo-i9-qYU" firstAttribute="leading" secondItem="SZg-xV-qZj" secondAttribute="leading" constant="141" id="Sfa-j0-TRs"/>
                             <constraint firstItem="WH5-xf-qeD" firstAttribute="leading" secondItem="SZg-xV-qZj" secondAttribute="leading" constant="65" id="a4P-nD-G7U"/>
                             <constraint firstItem="SZg-xV-qZj" firstAttribute="trailing" secondItem="WH5-xf-qeD" secondAttribute="trailing" constant="65" id="cms-ld-JId"/>
-                            <constraint firstItem="SZg-xV-qZj" firstAttribute="bottom" secondItem="kuo-i9-qYU" secondAttribute="bottom" constant="20" id="m5V-hc-iex"/>
+                            <constraint firstItem="SZg-xV-qZj" firstAttribute="trailing" secondItem="kuo-i9-qYU" secondAttribute="trailing" constant="141" id="o84-da-EKF"/>
                             <constraint firstItem="SZg-xV-qZj" firstAttribute="bottom" secondItem="WH5-xf-qeD" secondAttribute="bottom" constant="431" id="qoO-8A-TWG"/>
                             <constraint firstItem="WH5-xf-qeD" firstAttribute="top" secondItem="SZg-xV-qZj" secondAttribute="top" constant="20" id="rFU-fa-pqs"/>
                         </constraints>
@@ -126,13 +126,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Oe-fd-61g" customClass="BarLabel" customModule="BarCrowd2" customModuleProvider="target">
-                                <rect key="frame" x="16" y="64" width="343" height="26.5"/>
+                                <rect key="frame" x="16" y="74" width="343" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZj-Rm-M4e" customClass="BarLabel" customModule="BarCrowd2" customModuleProvider="target">
-                                <rect key="frame" x="16" y="190.5" width="343" height="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZj-Rm-M4e" customClass="BarLabel" customModule="BarCrowd2" customModuleProvider="target">
+                                <rect key="frame" x="16" y="150.5" width="343" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="oRD-qA-22H"/>
                                 </constraints>
@@ -140,8 +140,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksh-Uy-pis" customClass="BarLabel" customModule="BarCrowd2" customModuleProvider="target">
-                                <rect key="frame" x="16" y="265.5" width="343" height="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksh-Uy-pis" customClass="BarLabel" customModule="BarCrowd2" customModuleProvider="target">
+                                <rect key="frame" x="16" y="225.5" width="343" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="gdt-bl-hQl"/>
                                 </constraints>
@@ -149,25 +149,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crI-Py-fDk" customClass="BarLabel" customModule="BarCrowd2" customModuleProvider="target">
-                                <rect key="frame" x="16" y="415.5" width="343" height="150"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crI-Py-fDk" customClass="BarLabel" customModule="BarCrowd2" customModuleProvider="target">
+                                <rect key="frame" x="16" y="361" width="343" height="278"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="sdE-jN-jkz"/>
+                                    <constraint firstAttribute="width" constant="343" id="47s-is-WQk"/>
+                                    <constraint firstAttribute="height" constant="278" id="GTd-Rd-mEX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eX-q0-gRw" customClass="BarButton" customModule="BarCrowd2" customModuleProvider="target">
-                                <rect key="frame" x="135" y="614" width="105" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Enter Crowds"/>
-                                <connections>
-                                    <segue destination="Kza-7N-DeY" kind="show" identifier="segueToCrowds" id="flo-Av-sXh"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xq7-2W-4i9" customClass="BarLabel" customModule="BarCrowd2" customModuleProvider="target">
-                                <rect key="frame" x="16" y="340.5" width="343" height="25"/>
+                                <rect key="frame" x="16" y="300.5" width="343" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="aAg-4P-CwU"/>
                                 </constraints>
@@ -175,27 +168,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eX-q0-gRw" customClass="BarButton" customModule="BarCrowd2" customModuleProvider="target">
+                                <rect key="frame" x="124" y="614" width="126" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Enter Crowds"/>
+                                <connections>
+                                    <segue destination="Kza-7N-DeY" kind="show" identifier="segueToCrowds" id="flo-Av-sXh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="66d-Tr-Dmb" firstAttribute="trailing" secondItem="2eX-q0-gRw" secondAttribute="trailing" constant="135" id="0Xj-O6-kw1"/>
                             <constraint firstItem="66d-Tr-Dmb" firstAttribute="trailing" secondItem="yZj-Rm-M4e" secondAttribute="trailing" constant="16" id="71o-il-gwX"/>
-                            <constraint firstItem="66d-Tr-Dmb" firstAttribute="trailing" secondItem="0Oe-fd-61g" secondAttribute="trailing" constant="16" id="7TY-TG-j6G"/>
+                            <constraint firstItem="66d-Tr-Dmb" firstAttribute="trailing" secondItem="2eX-q0-gRw" secondAttribute="trailing" constant="125" id="8lC-To-LVy"/>
                             <constraint firstItem="Ksh-Uy-pis" firstAttribute="leading" secondItem="66d-Tr-Dmb" secondAttribute="leading" constant="16" id="BhH-73-kOf"/>
+                            <constraint firstItem="66d-Tr-Dmb" firstAttribute="bottom" secondItem="2eX-q0-gRw" secondAttribute="bottom" constant="20" id="CJN-lD-GwZ"/>
+                            <constraint firstItem="yZj-Rm-M4e" firstAttribute="top" secondItem="0Oe-fd-61g" secondAttribute="bottom" constant="50" id="F8a-98-RlR"/>
                             <constraint firstItem="xq7-2W-4i9" firstAttribute="top" secondItem="Ksh-Uy-pis" secondAttribute="bottom" constant="50" id="Fwp-rk-afx"/>
-                            <constraint firstItem="66d-Tr-Dmb" firstAttribute="bottom" secondItem="2eX-q0-gRw" secondAttribute="bottom" constant="20" id="KVu-VR-75D"/>
+                            <constraint firstItem="0Oe-fd-61g" firstAttribute="leading" secondItem="66d-Tr-Dmb" secondAttribute="leading" constant="16" id="Gju-Qx-Usf"/>
                             <constraint firstItem="66d-Tr-Dmb" firstAttribute="trailing" secondItem="Ksh-Uy-pis" secondAttribute="trailing" constant="16" id="Lnx-z7-4i0"/>
-                            <constraint firstItem="0Oe-fd-61g" firstAttribute="leading" secondItem="66d-Tr-Dmb" secondAttribute="leading" constant="16" id="R1e-JA-oRf"/>
+                            <constraint firstItem="66d-Tr-Dmb" firstAttribute="trailing" secondItem="crI-Py-fDk" secondAttribute="trailing" constant="16" id="P7w-oy-7Lx"/>
+                            <constraint firstItem="66d-Tr-Dmb" firstAttribute="trailing" secondItem="0Oe-fd-61g" secondAttribute="trailing" constant="16" id="QvJ-TO-3sD"/>
                             <constraint firstItem="xq7-2W-4i9" firstAttribute="leading" secondItem="66d-Tr-Dmb" secondAttribute="leading" constant="16" id="RhR-0X-Ikl"/>
+                            <constraint firstItem="0Oe-fd-61g" firstAttribute="top" secondItem="66d-Tr-Dmb" secondAttribute="top" constant="10" id="SVj-hL-pS4"/>
                             <constraint firstItem="yZj-Rm-M4e" firstAttribute="leading" secondItem="66d-Tr-Dmb" secondAttribute="leading" constant="16" id="Sig-tn-sHF"/>
-                            <constraint firstItem="crI-Py-fDk" firstAttribute="top" secondItem="xq7-2W-4i9" secondAttribute="bottom" constant="50" id="fcn-P9-OrP"/>
-                            <constraint firstItem="66d-Tr-Dmb" firstAttribute="trailing" secondItem="crI-Py-fDk" secondAttribute="trailing" constant="16" id="gR1-lq-48k"/>
-                            <constraint firstItem="0Oe-fd-61g" firstAttribute="top" secondItem="66d-Tr-Dmb" secondAttribute="top" id="k0e-ui-fdB"/>
+                            <constraint firstItem="2eX-q0-gRw" firstAttribute="leading" secondItem="66d-Tr-Dmb" secondAttribute="leading" constant="124" id="dhM-qS-5ze"/>
                             <constraint firstItem="Ksh-Uy-pis" firstAttribute="top" secondItem="yZj-Rm-M4e" secondAttribute="bottom" constant="50" id="kW7-44-LbW"/>
-                            <constraint firstItem="crI-Py-fDk" firstAttribute="leading" secondItem="66d-Tr-Dmb" secondAttribute="leading" constant="16" id="kdI-Vy-CTv"/>
-                            <constraint firstItem="2eX-q0-gRw" firstAttribute="leading" secondItem="66d-Tr-Dmb" secondAttribute="leading" constant="135" id="nE0-bI-jFU"/>
+                            <constraint firstItem="crI-Py-fDk" firstAttribute="leading" secondItem="66d-Tr-Dmb" secondAttribute="leading" constant="16" id="pfa-f0-741"/>
                             <constraint firstItem="66d-Tr-Dmb" firstAttribute="trailing" secondItem="xq7-2W-4i9" secondAttribute="trailing" constant="16" id="pl1-c7-Rrp"/>
-                            <constraint firstItem="yZj-Rm-M4e" firstAttribute="top" secondItem="0Oe-fd-61g" secondAttribute="bottom" constant="100" id="yTz-l7-ar7"/>
+                            <constraint firstItem="crI-Py-fDk" firstAttribute="top" secondItem="xq7-2W-4i9" secondAttribute="bottom" constant="35.5" id="zsz-pF-VC3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="66d-Tr-Dmb"/>
                     </view>
@@ -417,6 +418,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BarCrowdTakeOver" width="156" height="129"/>
+        <image name="BarCrowdTakeOver" width="78" height="64"/>
     </resources>
 </document>

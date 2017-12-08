@@ -11,10 +11,10 @@ import UIKit
 class BarButton: UIButton {
 
     override func awakeFromNib() {
-        self.tintColor = UIColor.blue
-        self.backgroundColor = UIColor.orange
+        self.tintColor = FONT_COLOR
+        self.backgroundColor = PURPLE_COLOR
         self.layer.borderWidth = 1.0
-        self.layer.borderColor = UIColor.blue.cgColor
+        self.layer.borderColor = PURPLE_COLOR.cgColor
         self.layer.cornerRadius = 5.0
     }
 
