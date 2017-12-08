@@ -311,7 +311,7 @@ class BarListViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items.count
+        return items.count - 1
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -326,7 +326,6 @@ class BarListViewController: UITableViewController {
         cell.barLabel.text = bar.name
         
         
-        
         return cell
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
@@ -337,11 +336,6 @@ class BarListViewController: UITableViewController {
             }
         }
         
-    }
-    
-    
-    
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
 
 }
